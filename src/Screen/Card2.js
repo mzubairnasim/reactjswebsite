@@ -1,13 +1,11 @@
 import React,{useState} from 'react'
-import one from '../assets/img/profile1.jpg'
-import two from '../assets/img/profile2.jpg'
-import three from '../assets/img/profile3.jpeg'
+
 import '../App.css'
 export default function Card() {
     const [card, setcard] = useState([
-        {title:"zubair",text:"Web developer",img:one},
-        {title:"johnas",text:"Web developer",img:two},
-        {title:"julie",text:"Web developer",img:three},
+        {title:"khan",text:"Web developer",img:"https://cdn.pixabay.com/photo/2016/03/09/15/10/man-1246508__340.jpg"},
+        {title:"alia",text:"Web developer",img:"https://cdn.pixabay.com/photo/2017/04/06/19/34/girl-2209147__340.jpg"},
+        {title:"momoa",text:"Web developer",img:"https://cdn.pixabay.com/photo/2014/04/12/14/59/portrait-322470__340.jpg"},
     ])
     return (
         <div className='cardone pb-4'>

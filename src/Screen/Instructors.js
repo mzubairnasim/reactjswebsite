@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import Card2 from './Card2'
 import Footer from './Footer'
 
 export default function Instructors() {
@@ -10,17 +11,13 @@ export default function Instructors() {
             <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active nazar"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active nazar"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active nazar"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
     <Card/>
     </div>
     <div class="carousel-item">
-    <Card/>
-    </div>
-    <div class="carousel-item">
-    <Card/>
+    <Card2/>
     </div>
   </div>
   
